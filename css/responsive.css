@@ -1,0 +1,81 @@
+/* If screen size is over 480 but below 660 apply the stle below */
+@media screen and (min-width: 480px){
+
+	/******************************
+	TWO COLUMN LAYOUT - CONTACT PAGE
+	*******************************/
+
+#primary{
+	width: 50%;
+	float: left;
+}
+
+#secondary{
+	width: 40%;
+	float: right;
+}
+
+	/******************************
+	PAGE PORTFOLIO
+	*******************************/
+
+#gallery li{
+	width: 28.3333%;
+
+}
+
+#gallery li:nth-child(4n){
+	clear: left;
+}
+
+	/******************************
+	PAGE ABOUT
+	*******************************/
+
+	.portfolio-photo{
+		float: left;
+		margin: 0 5% 80px 0;
+	}
+
+
+}
+
+
+@media screen and (min-width: 660px){
+
+	/******************************
+	HEADER
+	*******************************/
+	nav{
+		background: none;
+		float: right;
+		font-size: 1.125em;
+		margin-right: 5%;
+		text-align: right;
+		width: 45%;
+	}
+
+	#logo{
+		float: left;
+		margin-left: 5%;
+		text-align: left;
+		width: 45%;
+
+	}
+
+	h1{
+		font-size: 2.53m;
+	}
+
+	h2{
+		font-size: 0.825em;
+	}
+
+	header{
+		border-bottom: 10px solid #828282;
+		margin-bottom: 60px;
+	}
+
+}
+
+
